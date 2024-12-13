@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url('image/man.jpg');
+    background-size: cover;
+}
+.tle{
+    color: rgb(200, 236, 247);
+    font-family: "Papyrus", fantasy;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px #000000;    
+}
+.tle2{
+    color: rgba(73, 167, 213, 0.9);
+    font-family: "Alkatra", cursive;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 47px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px  #000000;
+}
+.t{
+    text-align: center;
+    margin-top: 5px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    gap: 80px;
+    padding: 13px 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 33px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px;
+}
+nav a{
+    text-decoration: none;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: rgb(181, 181, 181);
+    text-shadow: 2.5px 2.5px 3px #000000;
+}    
+nav a:hover{
+    color: #ecfdff;
+    background-color: rgba(100, 190, 220, 0.9);
+    background-image: url('image/bg.jpg');
+    padding: 15px 0px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.box{
+    background-color: rgba(100, 190, 220, 0.9);
+    background-image: url('image/bg.jpg');
+    padding: 15px;
+    border-radius: 15px;
+}
+.body main{
+    display: flex;
+    justify-content: space-around;
+}
+.container1{
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.3);
+    border: 10px solid #0080ab5a;
+    width: 1000px;
+    height: 550px;
+    margin-top: 40px;
+    position: relative;
+}
+.container1 img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    color: #0c3966;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+     'Trebuchet MS', sans-serif;
+    position: absolute;
+    text-align: left;
+    font: bold;
+    top: 10px;
+    left: 30px;
+    padding: 10px;
+    text-shadow: 2px 1.5px 1px #ffffff;
+}
+.bold{
+    padding: 8px;
+    background-color: #c3f1f6;
+    border-radius: 15px;
+    font-family: fantasy;
+    font-size: 35px;
+}
+.bold2{
+    font-size: 25px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bold3{
+    font-size: 30px;
+    color: #ff0000;
+    text-decoration: underline;
+    text-shadow: 0px 1px 2px #ffcc00;
+    margin-top: 30px;
+}
+.font{
+    margin-top: 30px;
+    color: rgb(207, 153, 79);
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px#ffffff;
+    border-radius: 15px;
+}
+.font a{
+    color: rgb(207, 153, 79);
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    height: 45px;
+    background-color: #d8fbff9f;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #000000;
+}
+.container1 a{
+    text-decoration: none;
+}
+.container1 p{
+    color: #ecfdff;
+    text-shadow: 2px 2px 3px #000000;
+    background-color: #54a5d0cd;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 170px;
+    border-radius: 50px;
+    box-shadow: 3px 4px 3px #000000;
+}
+footer{
+    background-color: #4e6a76;
+    font-size: .90em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 4px 4px 2px #fff4ed;
+}
+footer a{
+    color: rgb(142, 187, 236);
+}
+
+
+
+
+
+
+.container{
+    margin-top: 75px;
+}
+.row, .row2, .row3{
+    display: flex;
+}
+.card, .card2{
+    box-shadow: 0px 4px 8px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+}
+.price{
+    color:rgb(17, 19, 21);
+    font-size: 22px;
+}
+.card button, .card2 button, .card3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: rgba(230, 121, 48, 0.279);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover, .card2 button:hover{
+    opacity: 0.7;
+}
+div h1{
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+.card2 img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pagination{
+    text-align: center;
+    font-size: 1.5em;
+}
+.pagination a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    background-color: white;
+}  
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body2{
+    background-image: url('image/bg.jpg');
+}
+.body2 footer{
+    margin-bottom: 5px;
+    box-shadow: 0px 2px 3px #000000;
+}
+.body3{
+    background-image: url('image/man.jpg');
+    background-size: cover;
+}
+.table{
+
+    margin-top: 35px;
+}
+table, th, td {
+    border: 1px solid rgb(159, 214, 227);
+    color: #ffffff;
+}
+.body3 footer{
+    margin-bottom: 5px;
+}
+.body4{
+    background-image: url('image/man.jpg');
+    background-size: cover;
+}
+.body4 main{
+    display: flex;
+    justify-content: space-around;
+}
+.white{
+    width: 900px;
+    height: 1900px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #ccdcf0;
+    background-image: url('image/bg.jpg');
+    border-radius: 20px;
+}
+.white p{
+    color: #4a6890;
+    font-family: fantasy;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px #c3c3c3; 
+}
+.fs{
+    font-size: 30px;
+    font-family: "Papyrus", fantasy;
+}
+.vid{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 15px;
+}
+.comment{
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    width: 300px;
+    padding: 25px;
+    background-color: #ecfdff;
+    border-radius: 30px;
+}
+.body4 footer{
+    box-shadow: 4px 4px 2px #fff4ed;
+}
